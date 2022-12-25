@@ -1,0 +1,37 @@
+package pkg2;
+
+public class Array1 {
+
+	public static void main(String[] args) 
+	{
+		int[] b = {500,27,120,56,88};
+		
+		// Print largest number from given array 
+		
+		int maxNumber = b[0];
+		for(int i=1; i<(b.length); i++) 
+		{
+			if(maxNumber< b[i])  
+			{
+				maxNumber= b[i]; 
+			}
+		}
+           System.out.println(maxNumber);  
+           
+          // Print smallest number from given array
+	       
+           int minNumber = b[0];
+           
+           for(int i=1; i<(b.length-1); i++ )
+           {
+        	   if(minNumber>b[i]) 
+        	   {
+        		   minNumber = b[i];
+        	   }
+            }
+           
+           System.out.println(minNumber);
+	}    
+	
+}
+ 

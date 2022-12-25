@@ -1,0 +1,22 @@
+package pkg1;
+
+public class ClassG {
+	
+	
+	public static void main(String[] args) {
+	
+	int a;
+	int b;
+	public ClassG() 
+	{
+		a=10;
+		b=20;
+	}	
+	public Static void method1() 
+	{
+		System.out.println("xyz");
+	}
+	
+	}
+
+}

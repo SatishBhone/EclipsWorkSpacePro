@@ -1,0 +1,12 @@
+package pkg1;
+
+public class Imutable_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       StringBuffer k = new StringBuffer("velocity ");
+       k.append("Classes");
+       System.out.println(k);
+	}
+
+}

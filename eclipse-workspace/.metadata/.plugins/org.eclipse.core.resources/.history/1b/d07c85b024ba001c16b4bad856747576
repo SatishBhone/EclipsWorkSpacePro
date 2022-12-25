@@ -1,0 +1,26 @@
+package pkg3;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class String_logical_pro extends Exception {
+
+	public static void main(String[] args) {
+	 // calculate how many time repeat the given element
+		 String str = "business is my aim";
+		  System.out.println(str);
+		
+		  ArrayList list = new ArrayList();
+		  
+		for(int i = 15; i>=0; i--) 
+		{
+			if(list.contains("str")) 
+			{
+				list.add(i);
+				System.out.println(i);
+			}	
+           }
+	
+	}
+
+}

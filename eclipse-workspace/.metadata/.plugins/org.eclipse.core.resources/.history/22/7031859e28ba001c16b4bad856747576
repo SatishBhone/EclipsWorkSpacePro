@@ -1,0 +1,13 @@
+package pkg3;
+
+
+
+public class String_logical_pro  {
+
+	public static void main(String[] args) {
+	 // calculate how many time repeat the given element
+		
+	
+	}
+
+}

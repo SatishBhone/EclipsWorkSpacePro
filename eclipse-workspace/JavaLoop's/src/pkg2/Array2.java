@@ -1,0 +1,29 @@
+package pkg2;
+
+import java.util.Arrays;
+     //Print maximum number of an array
+
+public class Array2 {
+
+	public static void main(String[] args) 
+	{
+		int a[] = {300,74,83,163,188,154,200};
+		
+		int h[]=Arrays.copyOf(a, 8);  // coppy of an array
+		
+		h[7] =456;
+		System.out.println(Arrays.toString(h)); // printing of an array statement
+	  
+		int maxNumber = h[0];
+		
+		for(int i=1; i<=(a.length); i++) 
+		{
+			if(maxNumber <= h[i] ) 
+			{
+				maxNumber= h[i];
+			}
+		}
+           System.out.println(maxNumber); // printing max number 
+          
+	}
+}

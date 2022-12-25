@@ -1,0 +1,34 @@
+package pkg1;
+
+public class ClassG {
+     int a;
+	int b;
+	
+	public  ClassG()
+	{
+		a=10;
+		b=20;
+	}
+	public  ClassG(int c,int d)
+	{
+		c=40;
+		d=66;
+	}
+	public static void main(String[] args) {
+
+		System.out.println("xyz");
+		new ClassG();
+		ClassG k = new ClassG();
+		k.m1();
+		ClassG k1 = new ClassG();
+	
+	}
+	
+	public void m1() 
+	{
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println("satish");
+	}
+
+}

@@ -1,0 +1,16 @@
+package pkg1;
+
+public class ClassG {
+	int a;
+	int b;
+	public ClassG()
+	{
+		a=10;
+		b=20;
+	}
+	public static void main(String[] args) {
+	
+	
+	}
+
+}

@@ -1,0 +1,14 @@
+package pkg1;
+
+public class ClassC {
+
+	public static void main(String[] args) {
+		int a=100;
+		int[] k = {2,45,85,36};
+		System.out.println(k[4]);
+		System.out.println(a);
+		
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package pkg2;
+
+public abstract class AbstractClass {
+
+   abstract public void m1();
+   abstract public void m2();
+	
+   public void m3() // methods
+	{
+	System.out.println("printing concrit methods");	
+	}
+	 public void m4() 
+	{
+		System.out.println("implementation can not be change");
+	}
+	 public AbstractClass(int a) // Constructor
+	 {
+		 
+	 }
+}

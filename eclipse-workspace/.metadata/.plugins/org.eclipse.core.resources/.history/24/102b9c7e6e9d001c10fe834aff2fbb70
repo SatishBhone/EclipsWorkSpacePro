@@ -1,0 +1,26 @@
+package pkg2;
+
+public class Array5 {
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		int a[] = {77,21,44,98,76};
+		System.out.println(a.length);
+		int k1 =a[3];
+		int k2=a[2];
+		System.out.println("Old Value:"+k1);
+		System.out.println("Old value:"+k2);
+      a[3]=45;
+       a[2] =55;
+       int k3=a[2];
+       int k4=a[3];
+      System.out.println("New value:"+k3);
+       System.out.println("New value:"+k4);
+    	
+    	
+    	
+    
+	}
+
+}

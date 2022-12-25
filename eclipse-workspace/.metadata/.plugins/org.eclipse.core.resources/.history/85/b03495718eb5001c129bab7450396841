@@ -1,0 +1,24 @@
+package pkg2;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class Exception_inJava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+  public static void demo() throws InterruptedException 
+  {
+	 int a =100;
+	 for(int i=0; i<10; i++) 
+	 {
+		 Thread.sleep(2000);
+		 System.out.println(a);
+	 }
+   }
+  public static void getData() throws FileNotFoundException  {
+FileInputStream file = new FileInputStream("c:lenovo\\file\\sk.xles");
+  }
+}
